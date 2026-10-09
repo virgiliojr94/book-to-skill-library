@@ -10,6 +10,7 @@ Repo biblioteca: a fonte da verdade vive aqui; os diretórios de skill dos agent
 |---|---|
 | `mrbeast-production` | "How to Succeed in MrBeast Production" — Jimmy Donaldson |
 | `normas-abnt-ufrr` | Normas ABNT + Resolução CEPE/UFRR nº 133/2025 |
+| `gapit-htmlgraphics` | documentação do plugin GAPIT HTML Graphics (Grafana) |
 
 ### `x/` — convertidas de posts no X
 | Skill | Conta | Janela |
@@ -30,6 +31,10 @@ Repo biblioteca: a fonte da verdade vive aqui; os diretórios de skill dos agent
   corpus.md         # (x-to-skill) posts com proveniência
   analysis.md       # (x-to-skill) análise de recorrência
 ```
+
+Conversões de doc técnico (ex. `gapit-htmlgraphics`) usam um layout alternativo:
+`references/` (API, lifecycle, opções), `recipes/` (receitas acionáveis),
+`patterns/` (padrões transversais).
 
 ## Instalar numa máquina nova
 ```sh
